@@ -1,0 +1,13 @@
+
+
+.calculator {
+    border: 1px solid rgba(103,100,100,0.35);
+    width: min(90vw, 320px);       /* responsive: max 320px, otherwise 90% viewport */
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(25,25,40,0.06);
+    background: #ffffff;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
